@@ -1,5 +1,5 @@
 export {};
-const text = await Deno.readTextFile("input_test.txt");
+const text = await Deno.readTextFile("input.txt");
 const lines = text.split("\n").map((s) => Array.from(s));
 
 const length = lines.length;
